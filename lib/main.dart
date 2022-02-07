@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:obaydullah_ecommerce/navigation_bar.dart';
 import 'package:obaydullah_ecommerce/pages/homepage.dart';
+import 'package:obaydullah_ecommerce/test.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +22,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.teal,
         hintColor: Colors.white,
       ),
-      home: OHSopHomePage(),
+      home: CurvedNavBarClass(),
     );
   }
 }
